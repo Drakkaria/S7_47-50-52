@@ -40,5 +40,9 @@ for (int i = 0; i < 3; i++)
     }
     Console.WriteLine();
 }
-
+// float result;
+// int m =3;
+// int n = 4;
+// result = Convert.ToSingle(m);
+// Console.WriteLine();
 
