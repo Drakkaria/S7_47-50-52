@@ -10,7 +10,6 @@
 // 1 4 7 2
 
 int[,] array = new int[3,4];
-
 for (int i =0; i <array.GetLength(0); i++)
 {
     for(int j =0; j <array.GetLength(1); j++)
@@ -29,9 +28,9 @@ for (int i =0; i <array.GetLength(0); i++)
     {
         if (i==0) 
         {
-    Console.Write(array[2,j] + ", ");
+    Console.Write(array[array.GetLength(0)-1,j] + ", ");
         }
-       else if (i==2)
+       else if (i==array.GetLength(0)-1)
        {
     Console.Write(array[0,j] + ", ");
        }
