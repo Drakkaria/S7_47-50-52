@@ -1,0 +1,15 @@
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.csproj.AssemblyReference.cache
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.AssemblyInfoInputs.cache
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.AssemblyInfo.cs
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.csproj.CoreCompileInputs.cache
+C:\Users\Arteeis\Desktop\DZ_7\dz47\bin\Debug\net6.0\dz47.exe
+C:\Users\Arteeis\Desktop\DZ_7\dz47\bin\Debug\net6.0\dz47.deps.json
+C:\Users\Arteeis\Desktop\DZ_7\dz47\bin\Debug\net6.0\dz47.runtimeconfig.json
+C:\Users\Arteeis\Desktop\DZ_7\dz47\bin\Debug\net6.0\dz47.dll
+C:\Users\Arteeis\Desktop\DZ_7\dz47\bin\Debug\net6.0\dz47.pdb
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.dll
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\refint\dz47.dll
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.pdb
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\dz47.genruntimeconfig.cache
+C:\Users\Arteeis\Desktop\DZ_7\dz47\obj\Debug\net6.0\ref\dz47.dll
