@@ -9,8 +9,10 @@
 
 
 int[,] arr = new int[2, 3];
+
 Console.Write("Введите число: ");
-Console.ReadLine();
+int a = int.Parse(Console.ReadLine()!);
+
  for (int i = 0; i < arr.GetLength(0); i++)
  {
      for (int j = 0; j < arr.GetLength(1); j++)
@@ -26,4 +28,15 @@ Console.ReadLine();
      }
      Console.WriteLine();
  }
-  
+ for (int i = 0; i < arr.GetLength(0); i++)
+ {
+     for (int j = 0; j < arr.GetLength(1); j++)
+     {
+         if ( a! == arr.GetLength(0)  );
+         if ( a! == arr.GetLength(1)  );
+          
+     }
+     
+     
+  }
+Console.WriteLine("Такого числа нет в массиве!");
