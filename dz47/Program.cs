@@ -14,18 +14,29 @@ for (int i = 0; i < array.GetLength(0); i++)
     for (int j = 0; j < array.GetLength(1); j++)
     {
         double number = new Random().Next(-10,10) + new Random().NextDouble();
-        number = Math.Round (number, 3);
+        number = Math.Round (number, 1);
         array [i,j] = number;
          Console.Write(array[i,j] + ", ");
     }
     Console.WriteLine();
 }
-// arr[i, j] =Convert.ToSingle(linesCount);
-// arr[i, j] =Convert.ToSingle(columnsCount);
 
-// float result;
-// int m =3;
-// int n = 4;
-// result = Convert.ToSingle(m);
-// Console.WriteLine();
 
+// double[,] arr = new double[3, 4];
+
+// for (int i = 0; i < arr.GetLength(0); i++)
+// {
+//     for (int j = 0; j < arr.GetLength(1); j++)
+//     {
+//         arr[i, j] = new Random().Next(-10, 10) + new Random().NextDouble();
+//         arr[i,j] = Math.Round(arr[i,j], 1);
+//     }
+// }
+// for (int i = 0; i < arr.GetLength(0); i++)
+//  {
+//      for (int j = 0; j < arr.GetLength(1); j++)
+//      {
+//          Console.Write(arr[i, j] + " ");
+//      }
+//      Console.WriteLine();
+//  }
