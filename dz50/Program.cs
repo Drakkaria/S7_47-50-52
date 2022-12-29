@@ -36,7 +36,7 @@ NewArr = FillNewArr(NewArr);
 PrintNewArr(NewArr);
 
 Console.Write("\n Введите  пожалуйста число: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 
 Console.Write("\n"); 
 bool numberInArr = false; 
