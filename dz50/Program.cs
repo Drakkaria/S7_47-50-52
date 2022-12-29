@@ -7,36 +7,54 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет.
 
+int[,] FillNewArr (int[,] NewArr)
 
-int[,] arr = new int[2, 3];
-
-Console.Write("Введите число: ");
-int a = int.Parse(Console.ReadLine()!);
-
- for (int i = 0; i < arr.GetLength(0); i++)
+{
+for (int i = 0; i < NewArr.GetLength(0); i++)
+{
+    for (int j = 0; j < NewArr.GetLength(1); j++)
+    {
+        NewArr[i, j] = new Random().Next(1, 10);
+    }
+}
+return NewArr;
+}
+void PrintNewArr (int[,] NewArr)
+{
+for (int i = 0; i < NewArr.GetLength(0); i++)
  {
-     for (int j = 0; j < arr.GetLength(1); j++)
+     for (int j = 0; j < NewArr.GetLength(1); j++)
      {
-         arr[i, j] = new Random().Next(0, 10);
-     }
- }
- for (int i = 0; i < arr.GetLength(0); i++)
- {
-     for (int j = 0; j < arr.GetLength(1); j++)
-     {
-         Console.Write(arr[i, j] + " ");
+       Console.Write(NewArr[i, j] + " ");
      }
      Console.WriteLine();
  }
- for (int i = 0; i < arr.GetLength(0); i++)
- {
-     for (int j = 0; j < arr.GetLength(1); j++)
-     {
-         if ( a! == arr.GetLength(0)  );
-         if ( a! == arr.GetLength(1)  );
-          
-     }
-     
-     
-  }
-Console.WriteLine("Такого числа нет в массиве!");
+}
+
+int[,] NewArr = new int[3,4];
+NewArr = FillNewArr(NewArr);
+PrintNewArr(NewArr);
+
+Console.Write("\n Введите  пожалуйста число: ");
+int number = int.Parse(Console.ReadLine());
+
+Console.Write("\n"); 
+bool numberInArr = false; 
+
+for (int i = 0; i < NewArr.GetLength(0); i++)
+{
+    for (int j = 0; j < NewArr.GetLength(1); j++)
+    {
+         if (NewArr[i,j] == number) 
+        { 
+            numberInArr = true;
+            Console.WriteLine($"[{Convert.ToInt32(i)},{Convert.ToInt32(j)}]"); 
+        } 
+    } 
+} 
+if (numberInArr) 
+    {}
+else 
+    { 
+        Console.Write($"Такого числа нет!"); 
+    }
